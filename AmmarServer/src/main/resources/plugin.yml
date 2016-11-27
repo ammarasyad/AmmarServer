@@ -1,0 +1,30 @@
+name: AmmarServer
+main: ammar.mod.plugin.AmmarServer
+version: 0.1.0-SNAPSHOT
+author: Ammar
+commands:
+  sysinfo:
+    description: View system information about the server.
+    usage: /<command>
+  checkplayer:
+    description: Checks if the player is online (useful when the player is not visible)
+    usage: /<command> <player>
+  freeze:
+    description: Freezes the specified player.
+    usage: /<command> <player>
+  unfreeze:
+    description: Unfreezes the specified player.
+    usage: /<command> <player>
+  changeworld:
+    description: Teleport to another world.
+    usage: /<command> <worldName>
+  worldgen:
+    description: Generates a structure with the specified params.
+    usage: /<command> <structureName> [radius]
+  banduration:
+    description: Bans the specified player with the specified time.
+    usage: /<command> <name> <second|minute|hour|day|week|month|year|infinite>
+  changeworld:
+    description: Teleports you to another world. "EXXPERIMENTAL"
+    usage: /<command> <worldName>
+    
